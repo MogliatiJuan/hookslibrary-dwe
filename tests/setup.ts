@@ -1,6 +1,11 @@
 import { cleanup } from '@testing-library/react-hooks';
-import { afterEach } from 'vitest';
+import { afterEach, beforeEach, vi } from 'vitest';
+
+beforeEach(() => {
+  vi.useFakeTimers();
+});
 
 afterEach(() => {
   cleanup();
+  vi.clearAllMocks();
 });
