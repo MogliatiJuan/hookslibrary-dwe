@@ -1,12 +1,12 @@
 {
-  "name": "hooksformlibdwe",
+  "name": "hookslibdwe",
   "version": "1.0.0",
   "type": "module",
-  "main": "./dist/hooksformlibdwe.umd.cjs",
+  "main": "./dist/hookslibdwe.umd.cjs",
   "exports": {
     ".": {
-      "import": "./dist/hooksformlibdwe.js",
-      "require": "./dist/hooksformlibdwe.umd.cjs"
+      "import": "./dist/hookslibdwe.js",
+      "require": "./dist/hookslibdwe.umd.cjs"
     }
   },
   "publishConfig": {
