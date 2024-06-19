@@ -1,4 +1,4 @@
-import { cleanup } from '@testing-library/react-hooks';
+import { cleanup } from '@testing-library/react';
 import { afterEach, beforeEach, vi } from 'vitest';
 
 beforeEach(() => {
