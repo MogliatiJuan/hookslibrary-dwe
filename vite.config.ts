@@ -28,5 +28,8 @@ export default defineConfig({
     globals: true,
     environment: 'jsdom',
     setupFiles: './tests/setup.ts',
+    coverage: {
+      exclude: ['src/**/index.ts*', 'commitlint.config.cjs', '.eslintrc.cjs'],
+    },
   },
 });
